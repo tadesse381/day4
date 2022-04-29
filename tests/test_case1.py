@@ -4,7 +4,6 @@ sys.path.append(os.path.abspath(os.path.join('..')))
 
 from case1 import find_average, count_occurence
 
-
 class TestCases(unittest.TestCase):
     def test_find_average(self):
         """
